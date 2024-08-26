@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HowToPlayController">
+   <children>
+      <Label alignment="CENTER" layoutX="196.0" layoutY="36.0" text="INSTRUCTIONS" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="70.0" />
+         </font></Label>
+      <Button id="closeButton" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleClose" prefHeight="29.0" prefWidth="87.0" text="Close" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <Group layoutX="105.0" layoutY="145.0" />
+      <Group layoutX="139.0" layoutY="355.0">
+         <children>
+            <Button id="instructionButton" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="53.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" text="S" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+            <Button id="instructionButton" alignment="CENTER" contentDisplay="CENTER" layoutY="53.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" text="A" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+            <Button id="instructionButton" alignment="CENTER" contentDisplay="CENTER" layoutX="112.0" layoutY="53.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="48.0" text="D" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+            <Button id="instructionButton" alignment="CENTER" contentDisplay="CENTER" layoutX="56.0" mnemonicParsing="false" text="W" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Group>
+      <Button id="instructionButton" alignment="CENTER" contentDisplay="CENTER" layoutX="385.0" layoutY="411.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="131.0" text="Space" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="86.0" fitWidth="63.0" layoutX="640.0" layoutY="368.0">
+         <image>
+            <Image url="@Images/mouseIntruction.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="151.0" layoutY="466.0" text="Movement" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="414.0" layoutY="467.0" text="Shoot" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="645.0" layoutY="467.0" text="Aim" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </Label>
+      <Text fill="#00ffe4" layoutX="139.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this game, you will need to eliminate the enemies that spawn." textAlignment="CENTER" wrappingWidth="621.3935546875">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#00ffe4" layoutX="124.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There is no ending to this game and the enemies will grow stronger and spawn more frequentyly the higher the wave." textAlignment="CENTER" wrappingWidth="654.3935574122588">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#72ff5c" layoutX="281.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Try to stay alive as long as possible" textAlignment="CENTER" wrappingWidth="339.3935546875">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

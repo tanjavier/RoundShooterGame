@@ -1,0 +1,30 @@
+.button {
+  -fx-background-color:black;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+  -fx-font-size: 25px;
+  -fx-border-color:white;
+}
+
+#closeButton {
+  -fx-background-color:black;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+  -fx-font-size: 20px;
+  -fx-border-color:white;
+}
+
+#instructionButton {
+  -fx-background-color:black;
+  -fx-text-fill:white;
+  -fx-font-weight:bold;
+  -fx-font-style:italic;
+  -fx-font-size: 20px;
+  -fx-border-color:white;
+}
+
+.button:hover, #closeButton:hover {
+  -fx-text-fill:#0062ff;
+  -fx-font-weight:bold;
+  -fx-border-color:#0062ff;
+}
